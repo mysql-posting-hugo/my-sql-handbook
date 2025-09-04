@@ -7,7 +7,7 @@ export default defineUserConfig({
   title: "TypeScript Handbook",
   description: "TypeScript 정리",
   bundler: viteBundler(),
-  base: "/ts-handbook-org/",
+  base: "/my-sql-handbook/",
 
   theme: defaultTheme({
     logo: "/images/profile.png",
