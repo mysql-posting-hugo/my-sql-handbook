@@ -34,7 +34,7 @@ jobs:
           node-version: 20 # Node.js 버전을 프로젝트에 맞게 설정
 
       - name: Install dependencies
-        run: npm ci # package-lock.json 을 사용하여 의존성을 설치합니다.
+        run: npm install # package-lock.json 을 사용하여 의존성을 설치합니다.
 
       - name: Build VuePress
         run: npm run docs:build # VuePress 빌드 명령어를 실행합니다.
