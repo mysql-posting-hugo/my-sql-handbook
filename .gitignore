@@ -1,0 +1,17 @@
+# 의존성 패키지 폴더
+node_modules/
+
+# 빌드 결과 폴더 (배포용 파일)
+# VuePress v1.x
+.vuepress/dist/
+# VuePress v2.x
+dist/
+
+# 캐시 및 임시 파일
+.vuepress/.cache/
+.vuepress/.temp/
+*.log
+npm-debug.log*
+
+# 운영체제 관련 임시 파일
+.DS_Store
