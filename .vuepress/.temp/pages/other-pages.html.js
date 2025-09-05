@@ -1,3 +1,0 @@
-import comp from "C:/Users/wjdgh/Desktop/bloging-tistory/myblog/my-sql-handbook/docs/.vuepress/.temp/pages/other-pages.html.vue"
-const data = JSON.parse("{\"path\":\"/other-pages.html\",\"title\":\"\",\"lang\":\"en-US\",\"frontmatter\":{},\"git\":{\"updatedTime\":1756988121000,\"contributors\":[{\"name\":\"Koras02\",\"username\":\"Koras02\",\"email\":\"wjdgh0727@gmail.com\",\"commits\":1,\"url\":\"https://github.com/Koras02\"}],\"changelog\":[{\"hash\":\"46c26a8728233e841d4566771c701c6eda264fb5\",\"time\":1756988121000,\"email\":\"wjdgh0727@gmail.com\",\"author\":\"Koras02\",\"message\":\"add-all\"}]},\"filePathRelative\":\"other-pages.md\"}")
-export { comp, data }

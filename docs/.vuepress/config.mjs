@@ -10,7 +10,7 @@ export default defineUserConfig({
   base: "/my-sql-handbook/",
 
   theme: defaultTheme({
-    logo: "/images/profile.png",
+    logo: "/images/mysql.jpg",
     navbar: [
       { text: "소개", link: "/introduction/" },
       { text: "기본 타입", link: "/step/basic-types/" },

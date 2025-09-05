@@ -1,3 +1,0 @@
-import comp from "C:/Users/wjdgh/Desktop/bloging-tistory/myblog/my-sql-handbook/docs/.vuepress/.temp/pages/guide/getting-started.html.vue"
-const data = JSON.parse("{\"path\":\"/guide/getting-started.html\",\"title\":\"Getting Started\",\"lang\":\"en-US\",\"frontmatter\":{\"title\":\"Getting Started\"},\"git\":{\"updatedTime\":1756988121000,\"contributors\":[{\"name\":\"Koras02\",\"username\":\"Koras02\",\"email\":\"wjdgh0727@gmail.com\",\"commits\":1,\"url\":\"https://github.com/Koras02\"}],\"changelog\":[{\"hash\":\"46c26a8728233e841d4566771c701c6eda264fb5\",\"time\":1756988121000,\"email\":\"wjdgh0727@gmail.com\",\"author\":\"Koras02\",\"message\":\"add-all\"}]},\"filePathRelative\":\"guide/getting-started.md\"}")
-export { comp, data }
