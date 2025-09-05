@@ -2,10 +2,9 @@ export const redirects = JSON.parse("{}")
 
 export const routes = Object.fromEntries([
   ["/", { loader: () => import(/* webpackChunkName: "index.html" */"C:/Users/wjdgh/Desktop/bloging-tistory/myblog/my-sql-handbook/docs/.vuepress/.temp/pages/index.html.js"), meta: {"title":""} }],
-  ["/guide/advenced.html", { loader: () => import(/* webpackChunkName: "guide_advenced.html" */"C:/Users/wjdgh/Desktop/bloging-tistory/myblog/my-sql-handbook/docs/.vuepress/.temp/pages/guide/advenced.html.js"), meta: {"title":"Advanced"} }],
-  ["/guide/getting-started.html", { loader: () => import(/* webpackChunkName: "guide_getting-started.html" */"C:/Users/wjdgh/Desktop/bloging-tistory/myblog/my-sql-handbook/docs/.vuepress/.temp/pages/guide/getting-started.html.js"), meta: {"title":"Getting Started"} }],
-  ["/guide/", { loader: () => import(/* webpackChunkName: "guide_index.html" */"C:/Users/wjdgh/Desktop/bloging-tistory/myblog/my-sql-handbook/docs/.vuepress/.temp/pages/guide/index.html.js"), meta: {"title":"Guide Home"} }],
-  ["/guide/mysql-tips.html", { loader: () => import(/* webpackChunkName: "guide_mysql-tips.html" */"C:/Users/wjdgh/Desktop/bloging-tistory/myblog/my-sql-handbook/docs/.vuepress/.temp/pages/guide/mysql-tips.html.js"), meta: {"title":"MySQL Tips"} }],
+  ["/guide/basic-types/functions.html", { loader: () => import(/* webpackChunkName: "guide_basic-types_functions.html" */"C:/Users/wjdgh/Desktop/bloging-tistory/myblog/my-sql-handbook/docs/.vuepress/.temp/pages/guide/basic-types/functions.html.js"), meta: {"title":"함수"} }],
+  ["/guide/basic-types/", { loader: () => import(/* webpackChunkName: "guide_basic-types_index.html" */"C:/Users/wjdgh/Desktop/bloging-tistory/myblog/my-sql-handbook/docs/.vuepress/.temp/pages/guide/basic-types/index.html.js"), meta: {"title":"MySQL 이란?"} }],
+  ["/guide/functions/", { loader: () => import(/* webpackChunkName: "guide_functions_index.html" */"C:/Users/wjdgh/Desktop/bloging-tistory/myblog/my-sql-handbook/docs/.vuepress/.temp/pages/guide/functions/index.html.js"), meta: {"title":"소개"} }],
   ["/404.html", { loader: () => import(/* webpackChunkName: "404.html" */"C:/Users/wjdgh/Desktop/bloging-tistory/myblog/my-sql-handbook/docs/.vuepress/.temp/pages/404.html.js"), meta: {"title":""} }],
 ]);
 

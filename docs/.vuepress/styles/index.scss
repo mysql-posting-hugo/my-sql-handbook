@@ -18,19 +18,19 @@
 }
 
 .wrapper a {
-  display: inline-block;
-  padding: 12px 24px;
   margin: 10px;
   border-radius: 8px;
   text-decoration: none;
   font-size: 18px;
   font-weight: bold;
   transition: all 0.3s ease;
+  width: 100%;
 }
 
 .wrapper a:first-of-type {
-  background-color: #00758f;
   color: white;
+  padding: 25px 10px;
+  background-color: #0099b0;
 }
 
 .wrapper a:first-of-type:hover {
@@ -38,8 +38,9 @@
 }
 
 .wrapper a:last-of-type {
-  background-color: #f29111;
   color: white;
+  padding: 25px 10px; /* 추가 */
+  background-color: #333;
 }
 
 .wrapper a:last-of-type:hover {

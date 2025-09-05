@@ -4,8 +4,8 @@ import { viteBundler } from "@vuepress/bundler-vite";
 import { defaultTheme } from "@vuepress/theme-default"; // <- default가 아님
 
 export default defineUserConfig({
-  title: "TypeScript Handbook",
-  description: "TypeScript 정리",
+  title: "MySQL Handbook",
+  description: "MySQL 정리",
   bundler: viteBundler(),
   base: "/my-sql-handbook/",
 
@@ -13,7 +13,7 @@ export default defineUserConfig({
     logo: "/images/mysql.jpg",
     navbar: [
       { text: "소개", link: "/introduction/" },
-      { text: "기본 타입", link: "/step/basic-types/" },
+      { text: "기본 타입", link: "/guide/basic-types/" },
       { text: "함수", link: "/step/functions/" },
     ],
     sidebar: {
@@ -24,11 +24,11 @@ export default defineUserConfig({
           children: ["", "guide"], // "" = README.md, guide.md = 서브페이지
         },
       ],
-      "/step/basic-types/": [
+      "/guide/basic-types/": [
         {
           text: "기본 타입",
           collapsible: true,
-          children: ["", "default", "interface"],
+          children: ["", "functions"],
         },
       ],
       "/step/functions/": [

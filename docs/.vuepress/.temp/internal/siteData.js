@@ -1,4 +1,4 @@
-export const siteData = JSON.parse("{\"base\":\"/my-sql-handbook/\",\"lang\":\"en-US\",\"title\":\"TypeScript Handbook\",\"description\":\"TypeScript 정리\",\"head\":[],\"locales\":{}}")
+export const siteData = JSON.parse("{\"base\":\"/my-sql-handbook/\",\"lang\":\"en-US\",\"title\":\"MySQL Handbook\",\"description\":\"MySQL 정리\",\"head\":[],\"locales\":{}}")
 
 if (import.meta.webpackHot) {
   import.meta.webpackHot.accept()
